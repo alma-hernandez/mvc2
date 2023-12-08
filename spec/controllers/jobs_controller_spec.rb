@@ -8,7 +8,7 @@ RSpec.describe JobsController, type: :controller do
         expect(Job.count).to eq(1)
          end
 
-         it 'responds witha job object' do
-            post :create, 
+         it 'responds with a job object' do
+            post :create, params: {employer_description: front end }
     end
 end
